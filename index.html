@@ -5,9 +5,142 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e787344f18.js" crossorigin="anonymous"></script>
     <title>Admin Dashboard</title>
 </head>
 <body>
-    
+    <div class="container">
+
+        <div class="header">
+            <div class="header-top">
+                <form action="#" method="get">
+                    <label for="search_"><i class="fa-solid fa-magnifying-glass"></i></label>
+                    <input type="search" name="search_" id="search_" placeholder="Search...">
+                </form>
+                <div class="header-top-right">
+                    <h1><a href="#"><i class="fa-solid fa-bell"></a></i></h1>
+                    <p><a href="#"><img src="./images/img_avatar.png" alt="Avatar"></a></p>
+                    <h1> <b> John Doe </b> </h1>
+                </div>
+            </div>
+            
+            <div class="header-bottom">
+                <p><img src="./images/img_avatar.png" alt="avatar">@John_Doe</p>
+                <button>New</button>
+                <button>Upload</button>
+                <button>Share</button>
+            </div>
+        </div>
+
+        <div class="sidebar">
+            <h1 id="dashboard"><i class="fa-solid fa-table-columns"></i> Dashboard</h1>
+
+            <div class="sidebar-main">
+                <p><a href="#"><i class="fa-solid fa-house"></i> Home</a></p>
+                <p><a href="#"><i class="fa-solid fa-user"></i> Profile</a></p>
+                <p><a href="#"><i class="fa-solid fa-message"></i> Messages</a></p>
+                <p><a href="#"><i class="fa-solid fa-clock-rotate-left"></i> History</a></p>
+                <p><a href="#"><i class="fa-solid fa-list-check"></i> Tasks</a></p>
+                <p><a href="#"><i class="fa-solid fa-user-group"></i> Communities</a></p>
+                <p><a href="#"><i class="fa-solid fa-gear"></i> Settings</a></p>
+                <p><a href="#"><i class="fa-solid fa-phone"></i> Support</a></p>
+                <p><a href="#"><i class="fa-solid fa-lock"></i> Privacy</a></p>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="left-side">
+                <h3>Your Jokes</h3>
+                <div class="cards-container">
+                    <div class="cards">
+                        <h4>What's the best thing about Switzerland</h4>
+                        <p>I don't know but the flag is a big plus</p>
+                        <p class="card-icons">
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-clock"></i>
+                        </p>
+                    </div>
+                    <div class="cards">
+                        <h4>I invented a new word</h4>
+                        <p>Plagiarism!</p>
+                        <p class="card-icons">
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-clock"></i>
+                        </p>
+                    </div>
+                    <div class="cards">
+                        <h4>Did you hear about the mathematician who's afraid of negative numbers?</h4>
+                        <p>He'll stop at nothing to avoid them.</p>
+                        <p class="card-icons">
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-clock"></i>
+                        </p>
+                    </div>
+                    <div class="cards">
+                        <h4>Did you hear about the actor who fell through the floorboards?</h4>
+                        <p>He was just going through a stage.</p>
+                        <p class="card-icons">
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-clock"></i>
+                        </p>
+                    </div>
+                    <div class="cards">
+                        <h4>Did you hear about the claustrophobic astronaut?</h4>
+                        <p>He just needed a little space.</p>
+                        <p class="card-icons">
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-clock"></i>
+                        </p>
+                    </div>
+                    <div class="cards">
+                        <h4>Why don’t scientists trust atoms?</h4>
+                        <p>Because they make up everything.</p>
+                        <p class="card-icons">
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-clock"></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right-side">
+                <div class="top">
+                    <h3>Announcements</h3>
+                    <div class="writing">
+                        <div>
+                            <h2>Site Maintenance</h2>
+                            <p>We will be down for two hours around midnight MDT, please make sure all your progress is saved</p>
+                        </div>
+
+
+                        <div>
+                            <h2>Top Joke</h2>
+                            <p>The best joke of the day goes to <a href="#">@Albert_201</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bottom">
+                    <h3>Trending</h3>
+                    <div class="avatar_container">
+                        <div class="avatar-list">
+                            <p class="avatar"><a href="#"><img src="./images/einstein.png" alt="einstein"> @Albert_201</a></p>
+                            <p class="avatar"><a href="#"><img src="./images/elephant.png" alt="elephant">@ellie_fant</a></p>
+                            <p class="avatar"><a href="#"><img src="./images/batman.png" alt="batman">@NotBruceWayne</a></p>
+                            <p class="avatar"><a href="#"><img src="./images/football.png" alt="soccer">@SportsKing1</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
 </body>
 </html>
